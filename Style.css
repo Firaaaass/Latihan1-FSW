@@ -38,3 +38,24 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.8em;
 }
+
+.container-satu {
+	max-width: 1920px;
+	margin: 0;
+	background-color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.kolom-utama {
+	flex: 3;
+	order: 2;
+	margin-bottom: 20px;
+}
+
+.sidebar-satu {
+	flex: 2;
+	order: 1;
+}
+
